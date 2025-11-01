@@ -1,0 +1,764 @@
+/****************************
+Main Element Styles
+*****************************/
+* {
+   box-sizing: border-box;	
+	
+	}
+
+
+
+body {
+	   font: normal 1em/1.5  'Ubuntu', sans-serif;
+	   color: #000;
+	   background-color: #FFF;
+	   
+}
+
+
+
+.main-wrapper{
+
+ max-width: 1000px;
+ margin: 2rem auto;
+ padding: 0 2%;	
+}
+
+a {
+   text-decoration: none;
+   color: #FFF;
+	
+}
+
+
+
+img {
+	max-width: 100%;
+	
+}
+
+
+.logo {
+ text-align: center;	
+ display: block;	
+ margin: 0 auto;	
+	
+}
+
+
+.show-shapes {
+	margin: 2rem auto 0;
+	
+	}
+	
+.intro{
+height: 100%;
+padding: 10px 5px 3px;	
+	
+	
+}
+
+
+
+
+
+/****************************
+Element Colours
+*****************************/
+.main-wrapper{
+  
+  background: #FFF;
+ 
+ 	
+}
+
+
+.main-header {
+	background-color: #FFF;
+	background-image: url(../img/s74Pro-header.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	
+	
+	}
+
+
+
+
+.show-shapes
+ {
+	background-color: #000;
+	color: #fff;
+	padding: 1%;
+	
+}
+
+.odd {
+ color: #fff;
+ background: #000;	
+	
+}
+
+
+.even{
+ color: #000;
+ background: #fff;	
+	
+}
+
+
+.intro {
+	background-color: #FFF;
+	background-image: url(../img/top_bg.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size: 110%;
+	color: #000;
+	padding: 1%;
+}  
+
+
+.contact-infoUpper a {
+	
+	color: #000;
+}
+
+	
+	
+.up-coming {
+	background-color: #000;
+	background-image: url(../img/blk_bg.jpg);
+	background-repeat: no-repeat;
+	background-position:bottom;
+	background-size: 110%;
+	color: #FFF;
+	padding: 1%;
+	
+}
+
+
+
+
+
+
+
+.completed {
+	background-color: #FFF;
+	background-image: url(../img/top_bg.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size: 110%;
+	color: #000;
+	padding: 1%;
+}
+
+
+
+footer {
+	background-color:#000;
+	background-image: url(../img/foot_topBg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	color: #FFF;
+	
+}
+
+
+.sec_head,
+.cent{
+text-shadow: 4px 4px 7px rgba(96,96,96, 0.8);
+}
+
+
+
+/****************************
+ Main Header
+*****************************/
+.main-header {
+	height: 250px;
+	margin-bottom:2%;
+}
+
+
+	
+/****************************
+Main Sections
+*****************************/
+
+h1,
+h2,
+h3 {
+   font-family: 'Orbitron', sans-serif;
+   margin: 10px auto 15px;
+   text-align: center;
+   line-height: 1.4rem;
+  	
+}
+
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+
+h2 {
+ font-size: 1.250rem;	
+ 
+}
+
+
+h3 {
+font-size: 1rem;	
+	
+	
+}
+
+
+
+/****************
+show shape section
+*****************/
+
+.odd,
+.even {
+  
+  margin: 0 auto;
+  padding: 1px;
+  font-size: 0.689rem;
+  text-align: center;
+  
+}
+
+ .even {
+      -moz-animation-duration: 5s;
+	  -o-animation-duration: 5s;
+      -webkit-animation-duration: 5s;
+      -moz-animation-name: slidein;
+	  -o-animation-name: slidein;
+      -webkit-animation-name: slidein;
+      -moz-animation-iteration-count: infinite;
+	  -o-animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-direction: alternate;
+	  -o-animation-direction: alternate;
+      -webkit-animation-direction: alternate;
+    }
+    
+	
+	
+	
+	.odd {
+		
+      -moz-animation-duration: 5s;
+	  -o-animation-duration: 5s;
+      -webkit-animation-duration: 5s;
+      -moz-animation-name: smooth;
+	  -o-animation-name: smooth;
+      -webkit-animation-name: smooth;
+      -moz-animation-iteration-count: infinite;
+	  -o-animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-direction: alternate;
+	  -o-animation-direction: alternate;
+      -webkit-animation-direction: alternate;
+    }
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-left:5%;
+		color: #000;
+		background: #FFF;
+	    width:55%
+      }
+      
+      75% {
+        
+        margin-left:25%;
+		color:#c0c0c0;
+		background: #000;
+        width:75%;
+      }
+	  
+	  
+	  
+      
+      to {
+        margin-left:5%;
+		color: #FFF;
+		background: #000;
+        width:80%;
+      }
+	  
+    }
+	
+	
+
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:5%;
+		color: #000;
+		background: #FFF;
+        width:55%
+      }
+      
+      75% {
+        
+        margin-left:25%;
+		color: #c0c0c0;
+		background:#000;
+        width:75%;
+      }
+      
+      to {
+        margin-left:5%;
+		color: #FFF;
+		background: #000;
+        width:80%;
+      }
+    }
+	
+	
+	
+	@keyframes slidein {
+      from {
+        margin-left:5%;
+		color: #000;
+		background:#FFF;
+        width:55%
+      }
+      
+      75% {
+        
+        margin-left:25%;
+		color: #c0c0c0;
+		background:#000;
+        width:75%;
+      }
+      
+      to {
+        margin-left:5%;
+		color: #FFF;
+		background: #000;
+        width:80%;
+      }
+    }
+/*right from here */
+
+@-moz-keyframes smooth {
+      from {
+        margin-right:5%;
+		color: #000;
+		background: #000;
+	    width:55%
+      }
+      
+      75% {
+        
+        margin-right:25%;
+        width:75%;
+      }
+	  
+	  
+	  
+      
+      to {
+        margin-right:5%;
+		color: #000;
+		background: #fff;
+        width:80%;
+      }
+	  
+    }
+	
+	
+
+    
+    @-webkit-keyframes smooth {
+      from {
+        margin-right:5%;
+		color: #000;
+		background: #000;
+        width:55%
+      }
+      
+      75% {
+        
+        margin-right:25%;
+        width:75%;
+      }
+      
+      to {
+        margin-right:5%;
+		color: #000;
+		background: #FFF;
+        width:80%;
+      }
+    }
+	
+	
+	
+	@keyframes smooth {
+      from {
+        margin-right:5%;
+		color: #000;
+		background:#000;
+        width:55%
+      }
+      
+      75% {
+        
+        margin-right:25%;
+        width:75%;
+      }
+      
+      to {
+        margin-right:5%;
+		color: #000;
+		background: #FFF;
+        width:80%;
+      }
+    }
+
+/************************************
+Main section paragraphs,headers hs
+***************************************/
+
+/****************
+headers and Hs
+*****************/
+ .sec_head
+  {
+	margin-top: 75px;
+}
+
+
+.up_come {
+	margin: 20px 0 25px;
+	
+	}
+
+
+
+
+
+.contact_lower {
+	margin-top: 45px;
+	
+	}
+
+
+.move-top {
+	
+	margin: 0 auto;
+	color: #000;
+	
+	}
+ /****************
+paragraphs
+*****************/
+.intro {
+	padding: 5px;
+	
+}
+
+ 
+p
+{
+  padding: 0.6rem;
+  margin: 0.5rem 0;	
+	
+}
+
+
+.projects_up {
+	padding-bottom: 5rem;	
+	}
+
+
+.contact-infoUpper,
+.contact-infoLower
+ {
+	width: 350px;
+	float: left;
+	margin:50px 0 5px 10px;
+	
+	
+}
+
+
+
+#c-rights{
+	margin-right: 30%;
+	
+}
+
+#copy{
+	margin-left: 0.5rem;
+}
+
+
+
+
+
+
+.socialMedia_upper,
+.socialMedia_lower {
+	
+	width: 150px;
+	margin: 80% auto 0;
+}
+
+
+#player {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+
+video{
+	width: 100%  !important;
+	height: auto !important;
+	background:transparent url('../video/opening-still.jpg') no-repeat 0 0; 
+   -webkit-background-size:cover; 
+   -moz-background-size:cover; 
+   -o-background-size:cover; 
+   background-size:cover; 
+	
+	
+}
+
+
+
+
+	
+.socialMedia_lower li,
+.socialMedia_upper li  {
+	display: inline-block;
+	width: 50px;
+	margin: 5px -22% 0 24.5%;
+	
+}
+
+
+.address,
+.phone,
+.email {
+	font-weight: 900;
+	
+	
+}
+
+
+footer {
+	padding-top:5px;
+}
+
+
+
+
+
+/***********
+Images
+***********/
+
+
+ .social {
+	width: 50%;
+	
+}
+
+
+.smile {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	
+	}
+	
+	
+	
+	
+/*****************
+Float Clear Fix
+*******************/
+
+.group::after {
+content: "";
+display: table; 
+clear: both;	
+	
+	
+	
+}
+
+
+
+
+
+	
+/*****************
+Media Queries
+******************/	
+	
+	
+@media screen and (min-width: 660px) {
+	
+.smile {
+	display: inline;
+	float: left;
+	width: 25%;
+	margin: 15px 15px 130px 6px;
+	
+  
+}
+
+
+.socialMedia_upper,
+.socialMedia_lower {
+	
+	width: 180px;
+	margin: 50% auto 0;
+	
+}
+
+.socialMedia_lower {
+	
+	margin: 40% auto 0;
+	
+}
+
+.socialMedia_lower li,
+.socialMedia_upper li  {
+	display: inline-block;
+	width: 60px;
+	margin: 5px -50.5% 0 36%;
+	
+}
+
+
+.up-coming {
+ overflow: hidden;
+ margin: 40px 0 50px;	
+	
+}
+
+
+
+.completed {
+margin-top: -50px;	
+	
+}
+
+
+#c-rights{
+	margin-right: 70%;
+	
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 808px){
+
+
+h3 {
+  font-size: 1.5rem;	
+}
+
+.projects_up {
+	padding:1rem 6rem 0 10rem;
+	margin-left: 4.5rem;	
+	}
+	
+	
+	
+	
+	
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+
+
+.projects_up {
+	padding:1rem 6rem 0 10rem;
+	margin-left: 9rem;	
+	}
+
+
+.odd,
+.even {
+  
+ 
+ 
+  font-size: 1rem;
+ 
+}
+
+
+
+ .cent,
+ .sec_head,
+ .contact_lower {
+	font-size: 2rem;
+	margin-top: 120px; 
+	 
+}
+ 
+.cent,
+.up_come {
+margin-top: 30px;	
+	
+}
+
+
+.socialMedia_upper {
+	margin: 30% auto 0;
+	
+}
+
+
+
+.contact_lower {
+	margin-top: 50px;
+	
+} 
+  
+
+.socialMedia_lower {
+	
+	margin: 300px auto 0;
+	
+}
+
+
+
+
+
+
+.about,
+.project_done {
+	margin: 3rem 5rem 6rem;
+	
+}
+
+
+
+
+
+
+
+}
