@@ -11,7 +11,7 @@ I created this project while studying for my **Front-End Web Development Techdeg
 HTML and CSS skills to a real-world client brief. As a student developer, I handled every stage — from visual design and
 media editing to layout implementation — delivering a fully responsive static site.
 
-> The site features a custom background, logo, and promotional video that I filmed and edited myself, showcasing both
+> The site features a custom background, logo, and promotional video that I edited myself, showcasing both
 > design and front-end creativity.
 
 ## 🌐 Live Demo
