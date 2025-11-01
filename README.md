@@ -16,8 +16,7 @@ media editing to layout implementation — delivering a fully responsive static 
 
 ## 🌐 Live Demo
 
-**Live:** [https://samatkinsonmodeste.github.io/s74-productions/](https://samatkinsonmodeste.github.io/s74-productions/)
-_(replace with your actual GitHub Pages URL once deployed)_
+**Live:** [S74 Productions](https://samatkinsonmodeste.github.io/s74-productions/)
 
 ## 🔍 Features
 
